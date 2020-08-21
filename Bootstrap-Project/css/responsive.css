@@ -1,0 +1,203 @@
+/* Ipad ngang (1024 x 768) */
+
+@media screen and (max-width: 1024px) {
+    #home-slide .carousel-caption .btn-buy {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .product-item .img-product:after,
+    .product-item .btn-add {
+        display: none;
+    }
+    #hd-body .form-group {
+        margin: 14.5px 0;
+    }
+    #home-slide .carousel-caption {
+        top: 35px;
+    }
+    #home-slide .carousel-caption .btn-buy {
+        margin-top: 10px;
+    }
+    #home-slide .carousel-caption h3 {
+        font-size: 30px;
+        padding: 10px 0 10px 0;
+    }
+    #category .info-cat {
+        bottom: 30px;
+    }
+    #category .info-cat .cat-name {
+        font-size: 30px;
+        margin-bottom: 6px;
+    }
+    #category .cat-content.watch .cat-name,
+    #category .cat-content.clothes .cat-name {
+        font-size: 30px;
+        text-transform: none;
+    }
+    #category .info-cat .btn-more {
+        padding: 5px 11px;
+    }
+    #wp-cart-search .btn-mobile {
+        display: block;
+    }
+    #wp-cart-search .btn-web {
+        display: none;
+    }
+    /* HEADER  */
+    #hd-top,
+    #hd-body .wp-menu {
+        display: none;
+    }
+    #hd-body .container {
+        max-width: 100%;
+    }
+    .wp-btn-respon {
+        display: block;
+    }
+    #hd-body .logo {
+        text-align: center;
+    }
+    .btn-respon {
+        font-size: 18px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        padding-left: 0;
+    }
+    .respon-menu li a {
+        color: #ededed;
+        font-size: 15px;
+        display: block;
+        border-bottom: 1px dashed #ededed5c;
+        padding: 10px 0;
+        text-decoration: none;
+    }
+    .arrow-res {
+        position: absolute;
+        right: 0;
+        top: 10px;
+        cursor: pointer;
+    }
+    .respon-menu .sub-menu {
+        width: 100%;
+        display: none;
+    }
+    .respon-menu .sub-menu li a {
+        padding-left: 15px;
+    }
+    #wp-cart-search span {
+        padding: 22px 5px;
+    }
+    #hd-body a.logo {
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #category .info-cat .btn-more,
+    #wp-cart-search .btn-web {
+        display: none;
+    }
+    /* SLIDER  */
+    #home-slide .carousel-caption p.desc {
+        display: none;
+    }
+    #home-slide .carousel-caption h3 {
+        font-size: 30px;
+    }
+    #home-slide .carousel-caption {
+        padding: 30px;
+        top: 50px;
+    }
+    #home-slide .carousel-caption .btn-buy {
+        margin-top: 4px;
+        font-size: 14px;
+    }
+}
+
+
+/* Ipad dá»c (768 x 1024) */
+
+@media screen and (max-width: 768px) {
+    .widget.widget-feature {
+        padding-top: 0px;
+    }
+    #category {
+        display: none;
+    }
+    #home-slide .carousel-caption h3 {
+        font-size: 30px;
+    }
+    #home-slide .carousel-caption {
+        padding: 30px;
+        top: 20px;
+    }
+    #home-slide .carousel-caption .btn-buy {
+        margin-top: 4px;
+        font-size: 10px;
+    }
+    .footer-body .info-company,
+    .about-company {
+        padding-bottom: 0px;
+    }
+    .footer-body .category,
+    .social {
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    #home-slide .carousel-caption h3 {
+        padding: 0;
+    }
+    #widget-support {
+        display: none;
+    }
+    .widget .widget-head .title {
+        font-size: 20px;
+    }
+    .widget {
+        padding: 30px 0;
+    }
+    .widget .widget-head {
+        padding-bottom: 0px;
+    }
+    .footer-body .widget {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .footer-body {
+        padding: 35px 0;
+    }
+    #home-slide .carousel-caption p {
+        font-size: 12px;
+    }
+    #home-slide .carousel-caption h3 {
+        font-size: 20px;
+    }
+    #home-slide .carousel-caption {
+        padding: 30px;
+        top: 20px;
+    }
+    #home-slide .carousel-caption .btn-buy {
+        margin-top: 4px;
+        font-size: 8px;
+    }
+}
+
+
+/* Tablet nhá» (480 x 640) */
+
+@media screen and (max-width: 480px) {}
+
+
+/* Iphone (480 x 640) */
+
+@media screen and (max-width: 320px) {}
+
+
+/* smart phone nhá» */
+
+@media screen and (max-width: 240px) {}
